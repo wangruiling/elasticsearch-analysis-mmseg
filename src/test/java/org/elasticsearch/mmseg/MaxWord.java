@@ -1,4 +1,4 @@
-package test.mmseg;
+package org.elasticsearch.mmseg;
 
 import java.io.IOException;
 

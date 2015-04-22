@@ -1,9 +1,9 @@
-package test.mmseg;
-
-import java.io.IOException;
+package org.elasticsearch.mmseg;
 
 import com.chenlb.mmseg4j.Seg;
 import com.chenlb.mmseg4j.SimpleSeg;
+
+import java.io.IOException;
 
 /**
  * 
@@ -21,7 +21,7 @@ public class Simple extends Complex {
 	}
 
 	public static void main(String[] args) throws IOException {
-//		new Simple().run(args);
+		new Simple("D:\\tools\\JetBrains\\IntelliJ IDEA 13.1.2\\elasticsearch-plugins\\elasticsearch-analysis-mmseg\\config\\mmseg").run(args);
 	}
 
 }

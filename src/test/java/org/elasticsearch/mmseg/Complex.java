@@ -1,16 +1,8 @@
-package test.mmseg;
+package org.elasticsearch.mmseg;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.Reader;
-import java.io.StringReader;
+import com.chenlb.mmseg4j.*;
 
-import com.chenlb.mmseg4j.ComplexSeg;
-import com.chenlb.mmseg4j.Dictionary;
-import com.chenlb.mmseg4j.MMSeg;
-import com.chenlb.mmseg4j.Seg;
-import com.chenlb.mmseg4j.Word;
+import java.io.*;
 
 public class Complex {
 
@@ -77,7 +69,7 @@ public class Complex {
 	
 	public static void main(String[] args) throws IOException {
 		
-//		new Complex().run(args);
+		new Complex("E:\\Lucene\\elasticsearch-analysis-mmseg-master\\config\\mmseg").run(args);
 	}
 
 }
